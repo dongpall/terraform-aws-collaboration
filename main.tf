@@ -20,6 +20,7 @@ provider "aws" {
   default_tags {
     tags = {
       Project = "<coffee-Mug-Cake>"
+      Owner = "jerry"     # and tom
     }
   }
 }
